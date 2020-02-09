@@ -5,6 +5,8 @@ import {
   QueueObject
 } from "./collections";
 
+import * as algorithms from "./algorithms";
+
 const num = 10 ** 7;
 
 const testStackArray = () => {
@@ -93,6 +95,18 @@ const testQueueObject = () => {
 
 testStackArray();
 testStackObject();
-
 // testQueueArray() Achtung!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 testQueueObject();
+
+console.log("--------------- Array Sort ---------------");
+const array = [1, 87, 54, 78, 9, 5, 3, 58];
+console.log("Original array", array);
+
+console.log("============== Bubble Sort ==============");
+console.log(algorithms.bubbleSort(array));
+
+console.log("============== Quick Sort ==============");
+console.log(algorithms.quickSort(array));
+
+console.log("============== Insertion Sort ==============");
+console.log(algorithms.insertionSort(array));

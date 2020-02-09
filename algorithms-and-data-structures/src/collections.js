@@ -57,7 +57,7 @@ export class StackObject {
   }
 
   peek() {
-    this.this.storage[this.count - 1]
+    this.this.storage[this.count - 1];
   }
 
   isEmpty() {
