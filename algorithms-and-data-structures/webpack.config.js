@@ -4,7 +4,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-  entry: { 
+  entry: {
     main: ["@babel/polyfill", "./src/js/index.js"]
   },
   output: {
@@ -38,11 +38,9 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: {
-          loader:"babel-loader",
+          loader: "babel-loader",
           options: {
-            presets: [
-              "@babel/preset-env"
-            ],
+            presets: ["@babel/preset-env"],
             plugins: ["@babel/plugin-proposal-class-properties"]
           }
         }

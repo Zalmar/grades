@@ -117,10 +117,9 @@ console.log(algorithms.insertionSort(array));
 
 $("span").html("Test jQuery import");
 
-
 // test async/await bable config
 async function start() {
-  return await Promise.resolve('async await')
+  return await Promise.resolve("async await");
 }
 
-start().then((e)=> console.log(e))
+start().then(e => console.log(e));
