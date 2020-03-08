@@ -14,4 +14,4 @@
 
 - [Bootstrap Documentation](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 
-### 3. [CRUD by express js](https://github.com/Zalmar/grades/tree/master/crud)
+### 3. [CRUD by express js](https://github.com/Zalmar/grades/tree/master/CRUD)
